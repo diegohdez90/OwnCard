@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.diegohdez.android.owncard.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/img_20170603_172000"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:text="Alfonso!!"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="36sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/loveu"
+        android:layout_margin="20dp"
+        android:text="Welcome to the family"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/loveu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We'll love U"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="36sp"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/holo_blue_bright"/>
+</RelativeLayout>
